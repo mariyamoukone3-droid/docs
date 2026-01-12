@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Mon projet de documentation",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#2563EB",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -11,77 +11,46 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "tab": "Guides",
+          "groups": [
+            {
+              "group": "Getting started",
+              "pages": []
+            },
+            {
+              "group": "Customization",
+              "pages": []
+            },
+            {
+              "group": "Writing content",
+              "pages": [
+                "essentials/presentation-du-projet"
+              ]
+            },
+            {
+              "group": "AI tools",
+              "pages": []
+            }
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "tab": "API reference",
+          "groups": [
+            {
+              "group": "API documentation",
+              "pages": [
+                "api-reference/introduction"
+              ]
+            },
+            {
+              "group": "Endpoint examples",
+              "pages": [
+                "api-reference/endpoint/get-utilisateurs"
+              ]
+            }
+          ]
         }
       ]
-    }
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -102,15 +71,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
