@@ -10,6 +10,7 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      "tabs": [
       {
           "tab": "Guides",
           "groups": [
@@ -45,13 +46,28 @@
             {
               "group": "Endpoint examples",
               "pages": [
-                "api-reference/endpoint/get-utilisateurs"
+                "api-reference/get-utilisateurs"
+              ]
+            }
+          ]
+        },
+ 
+        {
+          "tab": "Securite",
+          "groups": [
+            {
+              "group": "Accès utilisateur",
+
+              "pages": [
+                "securite/mot-de-passe"
               ]
             }
           ]
         }
       ]
+      
   },
+      
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"

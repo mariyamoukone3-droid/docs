@@ -19,8 +19,8 @@ Cette documentation est destinée aux développeurs, débutants ou expérimenté
 
 ## Contact
 
-Pour toute question, vous pouvez contacter l'équipe support à l'adresse : it@centrex.com
+Pour toute question, vous pouvez contacter l'équipe support à l'adresse : [it@centrex.com](mailto:it@centrex.com)
 
-## 🖼️ Aperçu du projet
+##  Aperçu du projet
 
 ![Interface principale du projet](../images/presentation/intuitive.png)
